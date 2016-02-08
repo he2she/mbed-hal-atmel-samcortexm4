@@ -1,0 +1,28 @@
+{
+  "name": "mbed-hal-atmel-samcortexm4",
+  "version": "0.1.0",
+  "description": "mbed HAL for Atmel SAM Cortex M4 MCUs",
+  "keywords": [
+    "mbed",
+    "hal",
+    "atmel",
+    "samcortexm4"    
+  ],
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "extraIncludes": [
+    "source"
+  ],
+  "dependencies": {
+    "mbed-hal": "*"
+  },
+  "targetDependencies": {
+    "atmel-samcortexm4-samg55": {
+    "mbed-hal-atmel-samg55j19": "*"
+    }
+  }
+}
