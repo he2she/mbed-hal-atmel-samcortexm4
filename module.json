@@ -1,6 +1,6 @@
 {
   "name": "mbed-hal-atmel-samcortexm4",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "mbed HAL for Atmel SAM Cortex M4 MCUs",
   "keywords": [
     "mbed",
@@ -10,10 +10,10 @@
   ],
   "author": "Akhil P <Akhil.P@atmel.com>",
   "repository": {
-    "url": "git@github.com:ARMmbed/mbed-hal-atmel-samcortexm4.git",
+    "url": "git@github.com:he2she/mbed-hal-atmel-samcortexm4.git",
     "type": "git"
   },
-  "homepage": "https://github.com/ARMmbed/mbed-hal-atmel-samcortexm4",    
+  "homepage": "https://github.com/he2she/mbed-hal-atmel-samcortexm4",    
   "licenses": [
     {
       "url": "https://spdx.org/licenses/Apache-2.0",
@@ -28,7 +28,7 @@
   },
   "targetDependencies": {
     "atmel-samcortexm4-samg55": {
-    "mbed-hal-atmel-samg55j19": "*"
+    "mbed-hal-atmel-samg55j19": "he2she/mbed-hal-atmel-samg55j19#v1.0.0"
     }
   }
 }
